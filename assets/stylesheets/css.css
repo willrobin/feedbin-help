@@ -375,11 +375,21 @@ header form {
 
 .sidebar {
 	float: right;
-	width: 22.680412371134%;
+	width: 25.7731958763%;
+	padding-right: 20px;
 }
 
 .inner-content {
 	padding: 0 85px;
+}
+
+.sidebar {
+	font-size: 14px;
+}
+
+.sidebar h2 {
+	border-bottom: 1px solid #CCC;
+	font-size: 16px;
 }
 
 footer {
