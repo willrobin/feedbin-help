@@ -80,6 +80,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activesupport
   jekyll
+  redcarpet
   sanitize
   tire

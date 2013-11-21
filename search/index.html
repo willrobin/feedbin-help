@@ -1,0 +1,21 @@
+---
+layout: default
+title: Search Results
+---
+<form data-behavior="search_form">
+	<input type="search" name="query" value="" />
+</form>
+
+<div data-behavior="search_results_target"></div>
+{% raw %}
+<script data-template="search_results" type="text/x-handlebars-template">
+	<ul>
+		{{#each results}}
+			<li>
+				<h2>{{title}}</h2>
+				<p>{{{description}}}</p>
+			</li>
+		{{/each}}
+	</ul>
+</script>
+{% endraw %}
