@@ -7,7 +7,33 @@
 	<link rel="stylesheet" href="/assets/stylesheets/css.css?{{ site.time | date: "%Y%m%d%H%M%S" }}" />
 </head>
 <body class="{{ page.class }}">
-	{{ content }}
+	<header>
+		<div class="container">
+			<a href="/" class="logo clearfix">
+				<img src="/assets/images/logo.svg" />
+				<span class="sub-head">Help Center</span>
+			</a>
+			<form action="search" method="get">
+				<input type="search" name="query" value="" placeholder="Search Feedbin Help" />
+			</form>
+		</div>
+	</header>
+	<div class="main-content clearfix">
+		<div class="container">
+			<div class="content-wrap">
+				{{ content }}
+			</div>
+			<div class="sidebar">
+
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="container">
+			Blog | Apps | Support | API | Privacy Policy
+			© 2013 Feedbin, Inc.
+		</div>
+	</footer>
 	<script src="/assets/javascripts/lib.js"></script>
 	<script src="/assets/javascripts/js.js"></script>
 </body>
