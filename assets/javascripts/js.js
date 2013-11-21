@@ -17,6 +17,10 @@ $.extend(feedbin, {
       }
     }
   },
+  updateSearch: function (query) {
+    window.history.pushState({}, '', '/search/?' + $.param({query: query}))
+    $('[type=search]').val(query);
+  },
   search: function(query) {
     var query = feedbin.query(query);
     jQuery.ajax({
@@ -65,17 +69,8 @@ $.extend(feedbin, {
       query = feedbin.queryString('query');
       if (query != null) {
         feedbin.search(query);
+        feedbin.updateSearch(query);
       }
-    },
-    searchForm: function () {
-      $(document).on('submit', '[data-behavior~=search_form]', function(event) {
-        var value = $(this).find('[type=search]').val();
-        if (value.length > 0) {
-          feedbin.search(value);
-          window.history.pushState({}, '', '/search/?' + $.param({query: value}))
-        }
-        event.preventDefault();
-      });
     }
   }
 });

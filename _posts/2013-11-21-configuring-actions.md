@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Actions
-category: search-syntax
+title: Configuring Actions
+category: using-feedbin
 description: Actions are workflows for your feeds...
 ---
 

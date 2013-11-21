@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Search Results
+class: search
 ---
-<form data-behavior="search_form">
-	<input type="search" name="query" value="" />
-</form>
+<div class="inner-content">
+	<h1 class="interior-header">Search Results</h1>
+	<div data-behavior="search_results_target"></div>
+</div>
 
-<div data-behavior="search_results_target"></div>
 {% raw %}
 <script data-template="search_results" type="text/x-handlebars-template">
-	<ul>
+	<ul class="article-list">
 		{{#each results}}
 			<li>
-				<h2>{{title}}</h2>
+				<h3><a href="{{url}}">{{title}}</a></h3>
 				<p>{{{description}}}</p>
 			</li>
 		{{/each}}

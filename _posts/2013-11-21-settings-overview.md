@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Settings
+title: Settings Overview
 category: using-feedbin
 ---
 

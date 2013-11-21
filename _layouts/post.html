@@ -1,13 +1,15 @@
 ---
 layout: default
 ---
-
-<div class="content main-content">
-	<article>
-		<h1>{{ page.title }}</h1>
-		<p class="page-meta">
-			<time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %d, %Y" }}</time> by {{ page.author }}
-		</p>
-		{{ content }}
-	</article>
+<div class="inner-content">
+	<h1 class="interior-header">{{ page.title }}</h1>
+	{{ content }}
+	<div class="footer-meta">
+		<div class="half">
+			Last modified: <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %d, %Y" }}</time>
+		</div>
+		<div class="half right-text">
+			<a href="https://github.com/feedbin/feedbin-help/blob/master/{{ page.path }}" class="icon-github">Suggest an Edit</a>
+		</div>
+	</div>
 </div>

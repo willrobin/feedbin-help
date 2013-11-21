@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Making a Feature Request
+category: using-feedbin
 ---
 
 Great ideas can come from anywhere, so feature requests are an important part of improving any product.
