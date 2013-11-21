@@ -1,0 +1,10 @@
+title:         Feedbin Blog
+description:   Rediscover RSS
+domain:        http://blog.feedbin.me
+email:         support@feedbin.me
+permalink:     /:title/
+pygments:      true
+paginate:      10
+exclude:       [public, vendor, .bundle, log, Gemfile, Gemfile.lock]
+search_index:  feedbin_help
+search_server: http://localhost:9200
