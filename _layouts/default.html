@@ -2,13 +2,13 @@
 <html>
 <head>
 	<meta charset="utf-8" />
+	<meta name="description" content="{{page.description}}" />
 	<title>{{ page.title }}</title>
 	<link rel="stylesheet" href="/assets/stylesheets/css.css?{{ site.time | date: "%Y%m%d%H%M%S" }}" />
 </head>
 <body class="{{ page.class }}">
 	{{ content }}
-
 	<script src="/assets/javascripts/lib.js"></script>
-	<script src="/assets/javascripts/app.js"></script>
+	<script src="/assets/javascripts/js.js"></script>
 </body>
 </html>

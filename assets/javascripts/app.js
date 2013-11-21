@@ -3,8 +3,8 @@ if (window.feedbin == null) {
 }
 
 $.extend(feedbin, {
-  search: function(query) {
-    query = {
+  query: function (query) {
+    return {
       query: {
         query_string: {
           query: query
@@ -16,6 +16,9 @@ $.extend(feedbin, {
         }
       }
     }
+  },
+  search: function(query) {
+    var query = feedbin.query(query);
     jQuery.ajax({
       url: 'http://localhost:9200/_search',
       type: 'POST',
