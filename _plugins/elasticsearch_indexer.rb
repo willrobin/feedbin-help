@@ -1,5 +1,3 @@
-$stdout.sync = true
-require 'logger'
 require 'tire'
 require 'sanitize'
 
@@ -7,16 +5,8 @@ module Jekyll
   class ElasticsearchIndexer < Generator
     safe true
 
-    def log
-      @log ||= Logger.new(File.expand_path(File.dirname(File.dirname(__FILE__))) + '/log/feedbin.log')
-    end
-
     def generate(site)
-
-
-      result = Tire::Configuration.url(site.config['search_server'])
-
-      log.info(result.inspect)
+      Tire::Configuration.url(site.config['search_server'])
       Tire.index site.config['search_index'] do
         delete
         create mappings: {
