@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="description" content="{{page.description}}" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
 	<title>{{ page.title }}</title>
 	<link rel="stylesheet" href="/assets/stylesheets/css.css?{{ site.time | date: "%Y%m%d%H%M%S" }}" />
 </head>
@@ -18,11 +19,7 @@
 			</form>
 		</div>
 	</header>
-	<div class="main-content clearfix">
-		<div class="container">
-			{{ content }}
-		</div>
-	</div>
+	{{ content }}
 	<footer>
 		<div class="container">
 			<a href="http://blog.feedbin.me">Blog</a> | <a href="https://feedbin.me/apps">Apps</a> | <a href="http://help.feedbin.me">Support</a> | <a href="https://github.com/feedbin/feedbin-api#readme">API</a> | <a href="https://feedbin.me/privacy_policy">Privacy Policy</a>

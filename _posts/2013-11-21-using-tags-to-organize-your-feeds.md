@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tags
+title: Using Tags to Organize your Feeds
 category: feed-management
 ---
 

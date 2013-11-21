@@ -133,10 +133,10 @@ input:focus {
 ----------------------------------------------*/
 body {
 	background-color: #efefef;
-	padding: 30px 20px 30px 20px;
+	padding: 20px;
 	margin: 0;
 	color: #333;
-	font-size: 20px;
+	font-size: 18px;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	line-height: 1.5;
 	-webkit-text-size-adjust: 100%;
@@ -254,6 +254,21 @@ code {
 	white-space: nowrap;
 }
 
+.video-container {
+	max-width: 962px;
+	max-height: 541px;
+	border: 1px solid #CCC;
+	border-bottom: none;
+	margin: 0 auto;
+	background-color: #000;
+}
+
+iframe {
+	margin: 0;
+	height: 541px;
+	width: 962px;
+}
+
 /*----------------------------------------------
   Layout
 ----------------------------------------------*/
@@ -308,7 +323,7 @@ code {
 .logo {
 	display: block;
 	color: #999;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 	width: 350px;
 	float: left;
 }
@@ -330,6 +345,7 @@ code {
 
 a:hover.logo {
 	color: #999;
+	text-decoration: none;
 }
 
 header form {
@@ -438,10 +454,83 @@ footer a:hover {
 }
 
 @media (max-width: 700px) {
-}
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	.inner-content {
+		padding: 0 20px;
+	}
+	.content-wrap {
+		padding: 0 20px;
+	}
 }
 
 @media (max-width: 540px) {
+	body {
+		padding: 10px 0;
+		font-size: 16px;
+	}
+
+	h1 {
+		font-size: 30px;
+	}
+
+	.main-content {
+		border: none;
+		padding: 15px 0;
+	}
+
+	.inner-content {
+		padding: 0;
+	}
+
+	.container {
+		padding: 0 15px;
+	}
+
+	footer {
+		text-align: center;
+	}
+
+	.half {
+		float: none;
+		text-align: center;
+		width: auto;
+	}
+
+	.content-wrap {
+		padding: 0;
+		width: auto;
+	}
+
+	.sidebar {
+		display: none;
+	}
+
+	.logo {
+		float: none;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.logo img {
+		float: none;
+		margin: 0 auto 10px auto;
+	}
+
+	.logo .sub-head {
+		display: block;
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+		padding: 0;
+		border: none;
+	}
+
+	header form {
+		width: 100%;
+		padding: 0;
+		margin-bottom: 15px;
+	}
+
+	.video-container {
+		border: none;
+	}
 }

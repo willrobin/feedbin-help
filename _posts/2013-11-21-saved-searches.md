@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Saved Searches
+category: search
 ---
 
 If you have a search that you perform regularly you can make it a saved search.

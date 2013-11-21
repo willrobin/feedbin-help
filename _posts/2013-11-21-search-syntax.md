@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Search Syntax
+category: search
 ---
 
 Feedbin supports an advanced search syntax.

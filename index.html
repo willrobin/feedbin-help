@@ -5,21 +5,24 @@ class: home
 description: Feedbin's Help Center. Answers, tips and documentation for using Feedbin.
 ---
 
-<div class="content-wrap">
-	<h1>Browse by Topic</h1>
-	{% for category in site.categories %}
-		{% assign category_slug = category[0] %}
-		<h2 class="category">{{ category_slug | replace: '-', ' ' | titleize }}</h2>
-		<ul class="article-list">
-			{% for page in site.categories[category_slug] %}
-				<li>
-					<h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
-				</li>
+<div class="main-content clearfix">
+	<div class="container">
+		<div class="content-wrap">
+			<h1>Browse by Topic</h1>
+			{% for category in site.categories %}
+				{% assign category_slug = category[0] %}
+				<h2 class="category">{{ category_slug | replace: '-', ' ' | titleize }}</h2>
+				<ul class="article-list">
+					{% for page in site.categories[category_slug] %}
+						<li>
+							<h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+						</li>
+					{% endfor %}
+				</ul>
 			{% endfor %}
-		</ul>
-	{% endfor %}
+		</div>
+		<div class="sidebar">
+			Sidebar
+		</div>
+	</div>
 </div>
-<div class="sidebar">
-
-</div>
-

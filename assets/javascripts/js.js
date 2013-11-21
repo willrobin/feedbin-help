@@ -65,6 +65,9 @@ $.extend(feedbin, {
         feedbin.template = Handlebars.compile(templateSource);
       }
     },
+    fitVid: function() {
+      $('body').fitVids();
+    },
     search: function() {
       query = feedbin.queryString('query');
       if (query != null) {

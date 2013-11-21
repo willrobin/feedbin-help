@@ -1,6 +1,7 @@
 ---
 layout: post
 title: What is Feedbin?
+category: using-feedbin
 ---
 
 Feedbin is a web-based [RSS](http://en.wikipedia.org/wiki/RSS) reader.
