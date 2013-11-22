@@ -7,8 +7,10 @@ description: Feedbin's Help Center. Answers, tips and documentation for using Fe
 
 <div class="main-content clearfix">
 	<div class="container">
-		<div class="content-wrap">
+		<div class="inner-content">
 			<h1>Browse by Topic</h1>
+		</div>
+		<div class="content-wrap">
 			{% for category in site.categories %}
 				{% assign category_slug = category[0] %}
 				<h2 class="category">{{ category_slug | replace: '-', ' ' | titleize }}</h2>
