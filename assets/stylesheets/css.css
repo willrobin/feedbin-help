@@ -463,6 +463,14 @@ footer a:hover {
 	margin-bottom: 15px;
 }
 
+.icon-github {
+	background: url(/assets/images/icon-github.svg) 0 0 no-repeat;
+	background-size: 20px 20px;
+	line-height: 20px;
+	padding-left: 25px;
+	display: inline-block;
+}
+
 @media (max-width: 700px) {
 	.inner-content {
 		padding: 0 20px;

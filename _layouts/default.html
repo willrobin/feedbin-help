@@ -23,10 +23,10 @@
 	<footer>
 		<div class="container">
 			<a href="http://blog.feedbin.me">Blog</a> | <a href="https://feedbin.me/apps">Apps</a> | <a href="http://help.feedbin.me">Support</a> | <a href="https://github.com/feedbin/feedbin-api#readme">API</a> | <a href="https://feedbin.me/privacy_policy">Privacy Policy</a>
-			<br />© 2013 Feedbin, Inc.
+			<br />© {{ site.time | date: "%Y" }} Feedbin, Inc.
 		</div>
 	</footer>
-	<script src="/assets/javascripts/lib.js"></script>
-	<script src="/assets/javascripts/js.js"></script>
+	<script src="/assets/javascripts/lib.js?{{ site.time | date: "%Y%m%d%H%M%S" }}"></script>
+	<script src="/assets/javascripts/js.js?{{ site.time | date: "%Y%m%d%H%M%S" }}"></script>
 </body>
 </html>
