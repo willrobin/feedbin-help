@@ -2,6 +2,7 @@
 layout: post
 title: Saved Searches
 category: search
+description: How to create and manage saved searches.
 ---
 
 If you have a search that you perform regularly you can make it a saved search.

@@ -3,6 +3,7 @@ layout: post
 title: How to Unsubscribe
 category: feed-management
 video: 79918001
+description: Methods for unsubscribing from feeds.
 ---
 
 There are two ways to unsubscribe from a feed.

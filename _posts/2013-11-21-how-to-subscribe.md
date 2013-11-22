@@ -2,6 +2,7 @@
 layout: post
 title: How to Subscribe
 category: feed-management
+description: Methods for subscribing to feeds.
 ---
 
 There are several ways to add feeds to Feedbin.
