@@ -21,6 +21,15 @@ The main Feedbin interface includes a button to subscribe. You can enter either 
 
 The full URL to the feed is required if the website does not link to its RSS feed in a way that Feedbin can find it.
 
+Email
+-----
+
+Every Feedbin account has a unique secret email address that you can mail links to subscribe to.
+
+To subscribe via email, send an email to this address with a link to the Website or feed. If Feedbin finds a feed, you will be subscribed to it. Add this email address to your address book to make it easy on yourself.
+
+You can find your email address on the [settings](https://feedbin.me/settings) page.
+
 URL
 ---
 
