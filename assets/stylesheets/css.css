@@ -388,9 +388,9 @@ header form {
 }
 
 .sidebar h2 {
-	border-bottom: 1px solid #CCC;
-	font-size: 16px;
+	font-size: 18px;
 	padding-top: 12px;
+	font-weight: normal;
 }
 
 footer {
@@ -474,6 +474,9 @@ footer a:hover {
 }
 
 @media (max-width: 700px) {
+	.sidebar {
+		padding-right: 20px;
+	}
 	.inner-content {
 		padding: 0 20px;
 	}
@@ -517,7 +520,7 @@ footer a:hover {
 
 	.content-wrap {
 		padding: 0;
-		width: auto;
+		width: 100%;
 	}
 
 	.sidebar {
