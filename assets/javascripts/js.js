@@ -18,7 +18,6 @@ $.extend(feedbin, {
     }
   },
   updateSearch: function (query) {
-    window.history.pushState({}, '', '/search/?' + $.param({query: query}))
     $('[type=search]').val(query);
   },
   search: function(query) {
