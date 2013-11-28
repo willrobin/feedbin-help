@@ -1,0 +1,84 @@
+---
+layout: post
+title: Keyboard Shortcuts
+category: using-feedbin
+description: Feedbin keyboard shortcuts
+---
+
+<table class="table table-bordered">
+  <tr>
+    <th>Action</th>
+    <th>Key</th>
+  </tr>
+  <tr>
+    <td>Navigate through feeds and entries</td>
+    <td>
+      <p><span class="key">↑</span> <span class="key">↓</span> <span class="key">←</span> <span class="key">→</span></p>
+      <span class="key">j</span> <span class="key">k</span> <span class="key">h</span> <span class="key">l</span>
+    </td>
+  </tr>
+  <tr>
+    <td>Navigate through unread items</td>
+    <td><span class="key wide">space</span></td>
+  </tr>
+  <tr>
+    <td>Expand/collapse tag drawer</td>
+    <td><span class="key">e</span></td>
+  </tr>
+  <tr>
+    <td>Star entry</td>
+    <td><span class="key">s</span></td>
+  </tr>
+  <tr>
+    <td>Toggle read/unread</td>
+    <td><span class="key">m</span></td>
+  </tr>
+  <tr>
+    <td>Open original</td>
+    <td><span class="key">v</span></td>
+  </tr>
+  <tr>
+    <td>Open original in background (FireFox not supported)</td>
+    <td><span class="key wide">shift</span> <span class="key">v</span></td>
+  </tr>
+  <tr>
+    <td>View with Readability</td>
+    <td><span class="key">c</span></td>
+  </tr>
+  <tr>
+    <td>Refresh feeds list</td>
+    <td><span class="key">r</span></td>
+  </tr>
+  <tr>
+    <td>Open sharing menu</td>
+    <td><span class="key">f</span></td>
+  </tr>
+  <tr>
+    <td>Go to all</td>
+    <td><span class="key">g</span> then <span class="key">a</span></td>
+  </tr>
+  <tr>
+    <td>Go to starred</td>
+    <td><span class="key">g</span> then <span class="key">s</span></td>
+  </tr>
+  <tr>
+    <td>Mark all as read</td>
+    <td><span class="key wide">shift</span> <span class="key">a</span></td>
+  </tr>
+  <tr>
+    <td>Focus search field</td>
+    <td><span class="key">/</span></td>
+  </tr>
+  <tr>
+    <td>Focus subscription field</td>
+    <td><span class="key">a</span></td>
+  </tr>
+  <tr>
+    <td>Unfocus field</td>
+    <td><span class="key wide">escape</span></td>
+  </tr>
+  <tr>
+    <td>Show help</td>
+    <td><span class="key">?</span></td>
+  </tr>
+</table>

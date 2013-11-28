@@ -17,7 +17,7 @@ You can access the import page under [Settings -> Import/Export](https://feedbin
 Subscribe Form
 --------------
 
-The main Feedbin interface includes a button to subscribe. You can enter either the URL of the website i.e. http://blog.feedbin.me OR the URL of the feed i.e. http://blog.feedbin.me/atom.xml.
+The main Feedbin interface includes a button to subscribe. You can enter either the URL of the website i.e. `http://blog.feedbin.me` OR the URL of the feed i.e. `http://blog.feedbin.me/atom.xml`.
 
 The full URL to the feed is required if the website does not link to its RSS feed in a way that Feedbin can find it.
 
