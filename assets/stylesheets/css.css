@@ -622,7 +622,7 @@ table code {
 	top: 0;
 	height: 30px;
 	width: 30px;
-	border-radius: 2px;
+	border-radius: 4px;
 	background-color: #666666;
 	content: "";
 }
