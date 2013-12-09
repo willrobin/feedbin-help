@@ -717,6 +717,7 @@ table code {
 	.logo img {
 		float: none;
 		margin: 0 auto 10px auto;
+		width: 130px;
 	}
 
 	.logo .sub-head {
