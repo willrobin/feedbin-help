@@ -68,6 +68,7 @@ List of URLs
 | Quitter               | `http://quitter.se/?action=newnotice&status_textarea=${title}${url}`               |
 | Readability           | `https://www.readability.com/save?url=${url}`                                      |
 | The List              | `http://thelist.io/posts/new?u=${url}&t=${title}`                                  |
+| Things                | `things:add?title=${title}&notes=${url}`                                           |
 | Tumblr                | `http://www.tumblr.com/share?v=3&u=${url}&t=${title}`                              |
 | Tweetbot              | `tweetbot:///post?text=${title}%20${url}`                                          |
 | Twitter               | `https://twitter.com/intent/tweet?url=${url}&text=${title}`                        |
