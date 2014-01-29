@@ -37,7 +37,7 @@ You can search only your [unread items](XX) using `is:unread`. You can also sear
 Search Order
 ------------
 
-By default Feedbin search results are returned in order of relevance. However it is possible to set a different search order. To sort by date you can use `sort:desc` to sort results newest first or `sort:asc` to sort results newest first.
+By default Feedbin search results are returned in order of relevance. However it is possible to set a different search order. To sort by date you can use `sort:desc` to sort results newest first or `sort:asc` to sort results oldest first.
 
 Fields
 ------
