@@ -18,6 +18,10 @@ description: Feedbin keyboard shortcuts
     </td>
   </tr>
   <tr>
+    <td>Page up/down through articles</td>
+    <td><span class="key">⇞</span> <span class="key">⇟</span></td>
+  </tr>
+  <tr>
     <td>Navigate through unread items</td>
     <td><span class="key wide">space</span></td>
   </tr>
