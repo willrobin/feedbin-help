@@ -23,7 +23,7 @@ $.extend(feedbin, {
   search: function(query) {
     var query = feedbin.query(query);
     jQuery.ajax({
-      url: 'http://search.help.feedbin.me/_search',
+      url: 'http://search.help.feedbin.com/_search',
       type: 'POST',
       dataType: 'json',
       contentType: 'application/json; charset=utf-8',

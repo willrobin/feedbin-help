@@ -11,7 +11,7 @@ For example to share something on <a href="https://app.net">App.net</a>, you can
 
 <pre><code>https://alpha.app.net/intent/post?text=<span class="label label-info">${title}</span>+<span class="label label-info">${url}</span></code></pre>
 
-You can add the sharing services you want to use on the [Sharing page](https://feedbin.me/settings/sharing) under Settings.
+You can add the sharing services you want to use on the [Sharing page](https://feedbin.com/settings/sharing) under Settings.
 
 <p>Available tokens:</p>
 

@@ -5,7 +5,7 @@ category: using-feedbin
 description: Actions are workflows for your feeds...
 ---
 
-[Actions](https://feedbin.me/settings/actions) are a great way to filter out articles you're not interested in or surface articles you want to be sure to read.
+[Actions](https://feedbin.com/settings/actions) are a great way to filter out articles you're not interested in or surface articles you want to be sure to read.
 
 You start by w...
 
