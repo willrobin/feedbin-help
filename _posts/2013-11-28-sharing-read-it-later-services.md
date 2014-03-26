@@ -57,6 +57,7 @@ List of URLs
 | Instapaper Text       | `http://www.instapaper.com/text?u=${url}`                                          |
 | Kippt                 | `https://kippt.com/extensions/new/?url=${url}&title=${title}`                      |
 | LinkedIn              | `http://www.linkedin.com/shareArticle?title=${title}&url=${url}`                   |
+| LinkyWink             | `http://linkywink.com/winkit/?url=${url}&title=${title}`                           |
 | Omnifocus             | `omnifocus:///add?name=${title}&note=${url}`                                       |
 | Pinboard              | `https://pinboard.in/add?next=same&url=${url}&description=${title}&title=${title}` |
 | Pinboard (read later) | `https://pinboard.in/add?later=yes&url=${url}&title=${title}&description=${title}` |
