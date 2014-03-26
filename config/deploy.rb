@@ -14,10 +14,9 @@ namespace :deploy do
   desc 'Restart application'
   task :restart do
     on roles(:app), in: :sequence, wait: 5 do
-      execute "cd #{current_path} && rm -Rf _site/* && /usr/local/rbenv/shims/bundle exec jekyll build"
+      execute "cd #{current_path} && /usr/local/rbenv/shims/bundle exec jekyll build"
     end
   end
 
   after :finishing, 'deploy:cleanup'
-
 end
