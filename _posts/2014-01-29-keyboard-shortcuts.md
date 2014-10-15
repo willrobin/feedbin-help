@@ -66,6 +66,10 @@ description: Feedbin keyboard shortcuts
     <td><span class="key">g</span> then <span class="key">s</span></td>
   </tr>
   <tr>
+    <td>Go to unread</td>
+    <td><span class="key">g</span> then <span class="key">u</span></td>
+  </tr>
+  <tr>
     <td>Mark all as read</td>
     <td><span class="key wide">shift</span> <span class="key">a</span></td>
   </tr>
