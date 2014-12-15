@@ -1,4 +1,9 @@
 source 'https://rubygems.org'
+
+group :production do
+  gem "therubyracer", require: 'v8'
+end
+
 gem 'bundler'
 gem 'jekyll'
 gem 'sanitize'
