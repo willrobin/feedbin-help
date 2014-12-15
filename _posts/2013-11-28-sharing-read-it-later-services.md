@@ -77,3 +77,4 @@ List of URLs
 | Twitter for Mac/iOS   | `twitter://post?message=${title}%20${url}`                                         |
 | Twitterrific          | `twitterrific:///post?message=${title}%20${url}`                                   |
 | Weibo                 | `http://service.weibo.com/share/share.php?url=${url}&title=${title}`               |
+| Fastmail              | 'https://www.fastmail.fm/action/compose/?to=&subject=${title}&body=${url}'         |
