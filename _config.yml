@@ -3,7 +3,7 @@ description:   Rediscover RSS
 domain:        http://blog.feedbin.com
 email:         support@feedbin.com
 permalink:     /:title/
-pygments:      true
+highlighter:   true
 paginate:      10
 exclude:       [public, vendor, .bundle, log, Gemfile, Gemfile.lock, Capfile, config, lib]
 search_index:  feedbin_help
