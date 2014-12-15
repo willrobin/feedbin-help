@@ -68,6 +68,7 @@ List of URLs
 | Pocket for iOS        | `pocket://add?url=${url}`                                                          |
 | Quitter               | `http://quitter.se/?action=newnotice&status_textarea=${title}${url}`               |
 | Readability           | `https://www.readability.com/save?url=${url}`                                      |
+| Spillo                | `spillo:///bookmark?url=${url}&title=${title}`                                     |
 | The List              | `http://thelist.io/posts/new?u=${url}&t=${title}`                                  |
 | Things                | `things:add?title=${title}&notes=${url}`                                           |
 | Tumblr                | `http://www.tumblr.com/share?v=3&u=${url}&t=${title}`                              |
