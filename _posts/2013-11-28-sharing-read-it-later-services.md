@@ -71,6 +71,7 @@ List of URLs
 | Spillo                | `spillo:///bookmark?url=${url}&title=${title}`                                     |
 | The List              | `http://thelist.io/posts/new?u=${url}&t=${title}`                                  |
 | Things                | `things:add?title=${title}&notes=${url}`                                           |
+| Todoist               | `https://todoist.com/API/addItem?content=${url}+(${title})+(via:+${source})&project_id={PROJECTID}&priority=1&token={APIKEY}` |
 | Tumblr                | `http://www.tumblr.com/share?v=3&u=${url}&t=${title}`                              |
 | Tweetbot              | `tweetbot:///post?text=${title}%20${url}`                                          |
 | Twitter               | `https://twitter.com/intent/tweet?url=${url}&text=${title}`                        |
