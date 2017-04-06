@@ -70,6 +70,7 @@ List of URLs
 | Readability           | `https://www.readability.com/save?url=${url}`                                      |
 | Reddit                | `https://www.reddit.com/submit?title=${title}&url=${url}`                          |
 | Spillo                | `spillo:///bookmark?url=${url}&title=${title}`                                     |
+| Telegram              | `https://telegram.me/share/url?url=${url}&text=${title}`                           |
 | The List              | `http://thelist.io/posts/new?u=${url}&t=${title}`                                  |
 | Things                | `things:add?title=${title}&notes=${url}`                                           |
 | Todoist               | `https://todoist.com/API/addItem?content=${url}+(${title})+(via:+${source})&project_id={PROJECTID}&priority=1&token={APIKEY}` |
