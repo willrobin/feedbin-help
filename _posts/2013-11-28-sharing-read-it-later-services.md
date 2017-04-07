@@ -7,9 +7,9 @@ description: Overview of how to configure sharing and read it later services.
 
 There are a lot of sharing (i.e. Twitter and Facebook) and read-it-later services (Instapaper, Readability and Pocket). Chances are your favorites support sharing through a special URL.
 
-For example to share something on <a href="https://app.net">App.net</a>, you can craft a URL like this and your post will be populated with the info you pass in:
+For example to share something on <a href="https://twitter.com">Twitter</a>, you can craft a URL like this and your post will be populated with the info you pass in:
 
-<pre><code>https://alpha.app.net/intent/post?text=<span class="label label-info">${title}</span>+<span class="label label-info">${url}</span></code></pre>
+<pre><code>https://twitter.com/intent/tweet?url=<span class="label label-info">${url}</span>&text=<span class="label label-info">${title}</span></code></pre>
 
 You can add the sharing services you want to use on the [Sharing page](https://feedbin.com/settings/sharing) under Settings.
 
@@ -39,7 +39,6 @@ List of URLs
 
 | Label                 | URL                                                                                |
 |-----------------------|------------------------------------------------------------------------------------|
-| App.net               | `https://alpha.app.net/intent/post?text=${title}+${url}`                           |
 | Bookie                | `https://bmark.us/{USERNAME}/new?description=${title}&url=${url}`                  |
 | Buffer                | `http://bufferapp.com/add?url=${url}&text=${title}`                                |
 | Delicious             | `https://delicious.com/save?&url=${url}&title=${title}`                            |
